@@ -1,4 +1,4 @@
-package ru.korostelev.MyToDo;
+package ru.korostelev.MyToDo.entity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

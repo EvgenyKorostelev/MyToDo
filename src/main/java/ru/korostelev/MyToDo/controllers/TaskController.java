@@ -1,6 +1,8 @@
-package ru.korostelev.MyToDo;
+package ru.korostelev.MyToDo.controllers;
 
 import org.springframework.web.bind.annotation.*;
+import ru.korostelev.MyToDo.servises.TaskService;
+import ru.korostelev.MyToDo.entity.Task;
 
 import java.util.List;
 import java.util.UUID;
@@ -26,7 +28,7 @@ public class TaskController {
     }
 
     @PostMapping
-    public Task addById(@RequestBody Task task){
+    public Task add(@RequestBody Task task){
         return taskService.addTask(task);
     }
 

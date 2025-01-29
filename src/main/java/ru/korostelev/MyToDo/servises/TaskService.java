@@ -1,6 +1,7 @@
-package ru.korostelev.MyToDo;
+package ru.korostelev.MyToDo.servises;
 
 import org.springframework.stereotype.Service;
+import ru.korostelev.MyToDo.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;
